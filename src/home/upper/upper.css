@@ -1,0 +1,75 @@
+.about{
+    
+    
+    padding-bottom: 48px;
+}
+.about-top{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.banner{
+    display: flex;
+    flex-direction: row;
+}
+.video-arrow{
+    width: 120px;
+    padding-left: 10px;
+}
+
+.contact-page-link {
+    margin-top: 18px;
+    font-size: 15px;
+    height: fit-content;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #950740;
+    width: fit-content;
+    font-weight: bold;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(255, 175, 222, 0.911);
+    
+}
+.contact-page-link a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center
+}
+
+.contact-page-link:hover{
+    background: #C3073F;
+}
+
+.video-about{
+    
+    height: 600px;
+}
+
+.about-info{
+    font-size: 24px;
+    color: white;
+}
+
+@media only screen and (max-width:820px)
+{
+    .about-top{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+    .about-info{
+        font-size: 20px;
+    }
+    .about{
+        padding: 0px 30px;
+        
+    }
+
+    .video-about{
+    
+        height: 300px;
+    }
+}

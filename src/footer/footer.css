@@ -1,0 +1,47 @@
+.social-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#C3073F,#6F2232);
+
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.credits{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    right: 5px;
+}
+
+.credits a:hover{
+    cursor: pointer;
+    border-style: none none solid none;
+    border-width: 1px;
+}
+.credits a{
+    text-decoration: none;
+    color: white;
+}
+
+.social-icon-div{
+    padding: 10px;
+    cursor: pointer;
+    margin: 6px;
+}
+
+.social-icon{
+    height: 40px;
+}
+
+@media only screen and (max-width: 512px){
+    .credits{
+        position: relative;
+        right: 0px;
+    }
+}

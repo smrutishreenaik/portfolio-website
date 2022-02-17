@@ -1,0 +1,56 @@
+.header{
+    
+    display: flex;
+    background-image: linear-gradient(#950740,#C3073F);
+    justify-content: space-between;
+    flex: 1;
+    padding: 15px;
+    position: relative;
+    align-items: center;
+    
+    
+}
+.menu{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+
+}
+.menu-icon{
+    font-size: 30px;
+    color: white;
+    
+}
+.mobile-menu{
+    display: none;
+}
+
+.web-menu{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    font-size: 36px;
+    color: white;
+    font-weight: 800;
+}
+
+
+@media only screen and (max-width: 720px) {
+    .mobile-menu{
+        display: flex;
+        z-index: 50;
+    }
+    .web-menu{
+        display: none;
+    }
+    .header{
+        padding: 20px;
+    }
+    .logo{
+        font-size: 29px;
+    }
+    
+    
+}

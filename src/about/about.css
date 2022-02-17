@@ -1,0 +1,51 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.part{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-pic-card{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+
+}
+.about-text{
+    
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+.about-pic{
+    
+    margin: auto;
+    width: 100%;
+    display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width:720px){
+
+    .part{
+        flex-direction: column;
+    }
+    .about-pic-card{
+        width: 250px;
+        height: 250px;
+        padding: 10px;
+    }
+    .about-text{
+    
+        font-size: 20px;
+    }
+    
+}

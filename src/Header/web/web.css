@@ -1,0 +1,35 @@
+.web{
+    display: flex;
+    flex: 1;
+    align-items: center;
+
+}
+.web-option a{
+    font-size: 18px;
+    margin-right: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.web-option :hover{
+    color: #D4D6D7;
+    font-size: 19px;
+    transition: 0.1s;
+}
+
+.web-option a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center ;
+}
+.web-option:last-child{
+    margin-right: 0px;
+}
+
+.web-option a.active{
+    padding: 5px;
+    border-style:none none solid none ;
+    border-width: 1px;
+    border-color:#ff4dff;
+    font-size: 18px;
+}

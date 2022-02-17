@@ -1,0 +1,17 @@
+.App {
+    
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2833;
+    
+    
+  }
+
+  .App:hover{
+    
+    background-color: #383c49;
+    transition: 1s;
+
+}
