@@ -1,17 +1,17 @@
 .App {
     
     display: flex;
-    
+    background-color: rgba(62, 109, 131, 0.589);
     align-items: center;
     justify-content: center;
-    background-color: #1F2833;
+   
     
     
   }
 
   .App:hover{
     
-    background-color: #383c49;
+    background-color: rgba(73, 112, 143, 0.834);
     transition: 1s;
 
 }

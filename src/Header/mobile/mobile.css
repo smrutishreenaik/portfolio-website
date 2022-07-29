@@ -1,5 +1,5 @@
 .mobile{
-    background-image: linear-gradient(to right, #1F2833,#001866);
+    background-color: rgb(39, 96, 117);
     height: 100vh;
     width: 60vw;
     position: absolute;
@@ -41,14 +41,14 @@
 .mobile-option a{
     text-decoration: none;
     color: white;
-    font-weight: 1000; 
+    font-weight: bolder; 
     padding: 5px 25px 5px 25px;
 }
 
 .mobile-option a.active{
     border-style: solid;
     border-width: 1px;
-    border-color: #ff4dff;
+    border-color: #ffffff;
     
     
 }

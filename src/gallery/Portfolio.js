@@ -14,6 +14,7 @@ const options = {
     }
 }
 
+
 function Portfolio() {
     const images = imgdatas
 
@@ -32,6 +33,7 @@ function Portfolio() {
             <div className='content'>
             <SRLWrapper options={options}>
            <div className='container' >
+           
                {images.map(image =>
                 <div className="image-card" key={image.id} >
                     <a href={image.imgurl}>
@@ -39,6 +41,7 @@ function Portfolio() {
                     </a>
                 </div>
                )}
+               
            </div>
            </SRLWrapper>
            </div>

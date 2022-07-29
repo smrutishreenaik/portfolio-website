@@ -10,27 +10,29 @@
 
 
 .gallery-element{
-    padding: 20px;
+    padding: 40px;
 }
 
 .title{
-    font-size: 24px;
+    font-size: 18px;
     text-align: center;
     padding-bottom: 20px;
     color: white;
+    font-weight: bolder;
 }
 
 .image-link{
-    border-style: solid;
-    border-color: white;
+    
+    background-color: rgba(255, 255, 255, 0.648);
+    
 }
 .pic{
     
-    width: 400px;
-    height: 300px;
+    width: 350px;
+    height: 250px;
     object-fit: cover;
     object-position: center;
-    padding: 10px;
+    padding: 2px;
 
 }
 .pic:hover{

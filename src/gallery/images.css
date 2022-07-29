@@ -1,15 +1,17 @@
+.total{
+    background-color: rgba(0, 0, 0, 0.712);
+    min-height: 100vh;
+}
+
 .menubar{
-    background-image: linear-gradient(to right, #001866,#1F2833);
+    background-color: #5665737e;
     padding: 40px 0px 60px;
-    box-sizing: border-box;
-    border-radius: 5px;
     position: fixed;
     width: 150px;
     height: 100%; 
 }
 
 .texts{
-    font-family:'Josefin Sans', sans-serif;
     font-size: 15px;
     padding-top: 20px;
     text-align: center;
@@ -37,6 +39,7 @@
 
 .content{
     padding-left: 200px;
+    
     }
 
 
@@ -55,10 +58,9 @@
     width: 200px;
     height: 150px;
     object-fit: cover;
-    
     object-position: center;
-    border-radius: 5%;
-    box-shadow: 0 4px 8px 0 rgba(144, 142, 150, 0.418), 0 6px 20px 0 rgba(144, 142, 150, 0.418);
+    border-radius: 2%;
+    
 }
 
 .image:hover{
@@ -66,6 +68,8 @@
     opacity: 0.7;
     transition: 0.5s;
 }
+
+
 
 .links a.active{
     background-color: rgba(162, 202, 226, 0.24);

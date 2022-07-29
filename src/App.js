@@ -10,10 +10,12 @@ import About from './about/about'
 import Portfolio from './gallery/Portfolio'
 import Portraits from './gallery/Portraits'
 
+
 function App() {
   return (
   
     <div className='home'>
+      
       <div className='nav'>
         <Header />
       </div>

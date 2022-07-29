@@ -10,7 +10,7 @@ function Lower() {
         <div className='lower'>
             <div className='gallery-element'>
                 <div className='title'>
-                    Portraits
+                    PORTRAITS
                 </div>
                 <div className='image-link'>
                     <NavLink to='/gallery/portraits'>
@@ -21,7 +21,7 @@ function Lower() {
 
             <div className='gallery-element'>
                 <div className='title'>
-                    Portfolio
+                    PORTFOLIO
                 </div>
                 <div className='image-link'>
                     <NavLink to='/gallery'>
@@ -32,7 +32,7 @@ function Lower() {
 
             <div className='gallery-element'>
                 <div className='title'>
-                    Animations
+                    ANIMATIONS
                 </div>
                 <div className='image-link'>
                     <NavLink to='/gallery/animations'>

@@ -1,6 +1,6 @@
 .about{
     
-    
+    padding-top: 20px;
     padding-bottom: 48px;
 }
 .about-top{
@@ -8,7 +8,10 @@
     display: flex;
     justify-content: space-around;
     align-items:center;
+    background-color: rgba(0, 0, 0, 0.548);
+    
 }
+
 
 .banner{
     display: flex;
@@ -25,32 +28,35 @@
     height: fit-content;
     text-transform: uppercase;
     text-decoration: none;
-    background: #950740;
+    background: rgb(255, 255, 255);
     width: fit-content;
-    font-weight: bold;
     padding: 10px;
-    box-shadow: 2px 2px 5px rgba(255, 175, 222, 0.911);
     
 }
 .contact-page-link a{
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     display: flex;
+    font-size: medium;
+    font-weight: bolder;
     align-items: center
 }
 
 .contact-page-link:hover{
-    background: #C3073F;
+    background: #6caad4;
 }
-
+.contact-page-link a:hover{
+    color: white;
+}
 .video-about{
     
-    height: 600px;
+    height: 480px;
 }
 
 .about-info{
-    font-size: 24px;
+    font-size: 20px;
     color: white;
+   
 }
 
 @media only screen and (max-width:820px)

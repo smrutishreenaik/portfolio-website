@@ -10,8 +10,8 @@
     align-items: center;
 }
 .about-pic-card{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     object-position: center;
 
@@ -19,10 +19,11 @@
 .about-text{
     
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     margin: auto;
     width: 100%;
     padding: 10px;
+    
 }
 
 .about-pic{

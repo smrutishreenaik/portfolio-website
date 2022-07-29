@@ -31,7 +31,7 @@ function Upper() {
 
             <div className='banner'>
 
-            <div className='contact-page-link'> <NavLink to='/contact'>Wants yours click here</NavLink></div>
+            <div className='contact-page-link'> <NavLink to='/contact'>Wants your click here</NavLink></div>
             <div className='arrow'>
             <img src={giff} className='video-arrow' alt=''/>
             </div>

@@ -11,7 +11,7 @@ import Three from './reviews/three';
 function Middle() {
     return (
         <div>
-            <h1 style={{ textAlign: "center" }}>Testimonials</h1>
+            <h1 style={{ textAlign: "center", color: "white", fontSize: "20px" }}>TESTIMONIALS</h1>
       <div className="App">
         <Carousel >
           <Item><One/></Item>

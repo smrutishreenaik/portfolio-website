@@ -6,10 +6,20 @@ import Web from './web/Web'
 
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
+    const [color, setcolor] = useState(false)
+    const changeColor = ()=>{
+        if(window.scrollY>= 90){
+            setcolor(true)
+        } else{
+            setcolor(false)
+        }
+    }
+
+    window.addEventListener('scroll' , changeColor)
 
     return (
-        <div className='header'>
-            <div className='logo'>Shuvamkpatel</div>
+        <div className={color?'header header-bg' : 'header'}>
+            <div className='logo'>illusByShuvam</div>
             <div className='menu'>
                 <div className='web-menu'>
                     <Web />
